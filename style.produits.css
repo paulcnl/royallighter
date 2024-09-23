@@ -11,6 +11,12 @@ body{
     background-color: var(--color-principal);
 }
 
+h1 a{
+    color: var(--color-secondary);
+    text-decoration: none;
+    
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -19,6 +25,9 @@ header{
     height: 64px;
     position: fixed;
     width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: .5px;
+    border-bottom-color: #ae7e1777;
 
 }
 
@@ -192,6 +201,10 @@ footer{
     align-items: center;
    height: 50px;
     color: var(--color-secondary);
+    border-top-style: solid;
+    border-top-width: .5px;
+    border-top-color: #ae7e1777;
+    
   }
 
   footer ul{
